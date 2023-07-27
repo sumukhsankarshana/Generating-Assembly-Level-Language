@@ -16,5 +16,7 @@ After Input you will get the below outputs:
 
 The C++ file in the main directory is one of the logics to implement it.
 The JavaScript file is the main backend.
-It is connected to the HTML, CSS  and Javascript. 
-And all in all it is a simple and Responsive website.
+It is connected to the HTML, CSS.
+
+
+All in all it is a simple and Responsive website which take the IGC tree as input and converts it into Assembly level Langueage.
