@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CDSS</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <style>
+          body{
+            font-family: 'Montserrat';font-size: 22px;
+          }
+        </style>
+    </head>
+<body>
+    <div class="two">
+        <h1>Generating Assembly Language
+          <span>From Intermediate Labled tree</span>
+        </h1>
+      </div>
+<hr>
+<br>
+<center><div class="subscribe">
+    <p>Enter Your Root Node</p>
+    <input placeholder="root" id="root" class="root" name="root" type="text">
+    <br>
+    <div >
+        <button class="submit-btn" onclick="inputfuntion()">SUBMIT</button></div>
+  </div></center>
+  <br>
+  
+<hr>
+<br>
+<center><h4>Inorder Display:</h4></center>
+<center><div class="card">
+    <div class="tools">
+      <div class="circle">
+        <span class="red box"></span>
+      </div>
+      <div class="circle">
+        <span class="yellow box"></span>
+      </div>
+      <div class="circle">
+        <span class="green box"></span>
+      </div>
+    </div>
+    <div class="card__content"><p id="result1"></p>
+    </div>
+  </div></center>
+  <br>
+<hr>
+<br>
+<center><h4>Assembly Code:</h4></center>
+<center><div class="card">
+    <div class="tools">
+      <div class="circle">
+        <span class="red box"></span>
+      </div>
+      <div class="circle">
+        <span class="yellow box"></span>
+      </div>
+      <div class="circle">
+        <span class="green box"></span>
+      </div>
+    </div>
+    <div class="card__content"><p id="result2"></p>
+    </div>
+  </div></center>
+  <br>
+  <hr>
+<script src="./cdss_f.js"></script>
+</body>
+</html>
